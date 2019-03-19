@@ -1,6 +1,8 @@
-/*Author: CGalo
+/*
+Author: CGalo
 Date: March 19, 2019
-IDE: IntelliJ*/
+IDE: IntelliJ
+*/
 import java.util.*;
 
 public class StackMenu {
