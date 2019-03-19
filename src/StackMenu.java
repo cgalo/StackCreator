@@ -13,7 +13,7 @@ public class StackMenu {
         Stack newStack = new Stack ();
 
 
-        int i = 0; //To initialize while-loop
+        int i = 0; //To use for do-while loop
 
         //Do-while loop until user selects "Quit" on menu
         do {
