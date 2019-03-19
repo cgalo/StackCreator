@@ -1,4 +1,6 @@
-
+/*Author: CGalo
+Date: March 19, 2019
+IDE: IntelliJ*/
 import java.util.*;
 
 public class StackMenu {
@@ -11,20 +13,23 @@ public class StackMenu {
 
         int i = 0; //To initialize while-loop
 
+        //Do-while loop until user selects "Quit" on menu
         do {
+            //Try to run program if user inputs an integer, catch if user inputs anything else
             try {
                 //Create menu
                 System.out.println("\n\tMenu");
 
                 //User options
-                System.out.println("1: Add to Stack" +
-                        "\n2: Delete from Stack" +
-                        "\n3: Check top of Stack" +
-                        "\n4: Check bottom of Stack" +
-                        "\n5: Display Stack" +
-                        "\n6: Check if stack is empty" +
-                        "\n7: Empty Stack" +
-                        "\n0: Quit Program");
+                System.out.println(
+                        "1: Add to Stack"               +
+                        "\n2: Delete from Stack"        +
+                        "\n3: Check top of Stack"       +
+                        "\n4: Check bottom of Stack"    +
+                        "\n5: Display Stack"            +
+                        "\n6: Check if stack is empty"  +
+                        "\n7: Empty Stack"              +
+                        "\n0: Quit Program"             )   ;
 
                 Scanner scanner = new Scanner(System.in);
 
@@ -122,7 +127,7 @@ public class StackMenu {
     private static void checkStack (Stack stack) {
 
         if ( stack.empty() )
-            System.out.println  ( "Stack is empty"     );
+             System.out.println  ( "Stack is empty"    );
         else System.out.println ( "Stack is not empty" );
 
     }
